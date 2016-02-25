@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Drag and Drop tool</title>
+
+  <!-- Styles for R syntax highlighter -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/github.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+<!-- R syntax highlighter -->
+
+
+</head>
+<body>
+<div class="container">
+	<h3>Your Editor</h3>
+	<form action="https://public.opencpu.org/ocpu/library/base/R/identity/json" method="POST" id="knitForm">
+	<textarea name="x" class="form-control" rows=10></textarea>
+	<button type="button" class="btn btn-primary" id="knit"><span class="glyphicon glyphicon-play"></span>Run your code!</button>
+	<button type="button" class="btn btn-primary" id="knit-learn"><span class="glyphicon glyphicon-play"></span>Learn!</button>
+	</form>
+	<!-- the knitting result will be rendered inside this div -->
+	<div id="result"></div>
+	<div id="replicate">
+		<h2>Table of Results</h2>
+		<table border="1" style="width:100%" >
+		  <tr>
+		    <td class="11"></td>
+		    <td class="21"></td>
+		  </tr>
+		  <tr>
+		    <td class="12"></td>
+		    <td class="22"></td>
+		  </tr>
+		</table>
+
+		<h2>Graphs</h2>
+		<h3>#####################</h3>
+	</div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/languages/r.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script src="js/index.js"></script>
+</body>
+</html>

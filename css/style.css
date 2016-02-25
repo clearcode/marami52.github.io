@@ -1,0 +1,74 @@
+<style type="text/css">
+
+  textarea {
+    font-size: 12px;
+    font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+    width: 99%;
+  }
+
+  img
+  {
+      -webkit-user-drag: element;
+      }
+
+  span
+  {
+      -webkit-user-drag: element;
+      }
+  #result
+  {
+      float: left;
+      width: 50%;
+      padding: 5px;
+
+      }
+  #replicate
+  {
+      float: right;
+      width: 50%;
+      padding: 5px;
+      height:1300px;
+      border:1px solid #aaaaaa;
+      text-align: center;
+      padding-top: 50px;
+      }
+  /**[id^='row'] {
+    float: left;
+    width: auto;
+
+  }*/
+
+  *[id^='img'] {
+    float: left;
+    width: auto;
+
+  }
+  table
+  {
+      table-layout: fixed;
+      }
+  td
+  {
+      text-align: center;
+
+      }
+
+  tr
+  {
+      height: 50px;
+      }
+  dummy {
+    text-align: center;
+  }
+
+
+  #knit {
+    margin: 10px;
+    margin-left: 20px;
+  }
+
+  #knit-learn {
+    margin: 10px;
+    margin-left: 650px;
+  }
+</style>
